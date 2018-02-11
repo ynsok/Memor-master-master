@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8478CF</color>
+    <color name="colorPrimaryDark">#473B92</color>
+    <color name="colorAccent">#FFD955</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="colorButtons1">#E1BEE7</color>
+    <color name="colorButtons2">#CE93D8</color>
+    <color name="colorButtons3">#FFF9C4</color>
+    <color name="colorButtons4">#FFF176</color>
+    <color name="barStateEnabledTrue">#34142C</color>
+    <color name="barStateEnabledFalse">#FEFF1C</color>
+    <color name="tabBackground">#BE8BD2</color>
+    <color name="BarColor">#473B92</color>
+    <color name="yellow_main">#FFFFA1</color>
+    <color name="violet">#BE8BD2</color>
+    <color name="color_link2">#FFFF87</color>
+    <color name="button_text_color">#FFFFA1</color>
+    <color name="navigation_bar_text">#FFFFA1</color>
+    <color name="dark_yellow">#FFD955</color>
+</resources>

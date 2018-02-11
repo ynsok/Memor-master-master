@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/padding_for_texts"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/word_recycler"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_for_texts"
+        android:layout_weight="1"
+        android:background="@drawable/word_list_word_style"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|fill"
+        android:padding="@dimen/padding_for_texts"
+        android:singleLine="true"
+        android:text="Simple"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="@dimen/text_size_word_list"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/translate_recycler"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_for_texts"
+        android:layout_weight="1"
+        android:autoText="false"
+        android:background="@drawable/word_list_translation_style"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="fill|center"
+        android:padding="@dimen/padding_for_texts"
+        android:singleLine="true"
+        android:text="Prosto"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="@dimen/text_size_word_list"
+        android:typeface="monospace" />
+
+</LinearLayout>

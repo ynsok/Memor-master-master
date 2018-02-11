@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrepeat"
+    android:orientation="vertical"
+    tools:context="com.example.android.memor.reminder_activity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_margin_add_word">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margin_add_word">
+
+
+            <ImageButton
+                android:id="@+id/button_back"
+                android:layout_width="34dp"
+                android:layout_height="@dimen/icons_size"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_help_buttons"
+                android:layout_marginBottom="@dimen/button_margin2"
+                android:background="@drawable/button_style1"
+                android:padding="@dimen/padding_for_texts"
+                android:scaleType="fitXY"
+                android:src="@drawable/icons8_back"
+                android:textColor="@color/button_text_color"
+                android:tint="@color/yellow_main" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/button_help_reminder"
+            android:layout_width="@dimen/icons_size"
+            android:layout_height="@dimen/icons_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/margin_help_buttons"
+            android:layout_marginBottom="@dimen/button_margin2"
+            android:background="@drawable/button_style1"
+            android:scaleType="fitXY"
+            android:src="@drawable/icons8_help"
+            android:textColor="@color/button_text_color"
+            android:tint="@color/yellow_main" />
+    </RelativeLayout>
+
+    <Switch
+        android:id="@+id/switch_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_for_buttons"
+        android:layout_marginTop="@dimen/margin_for_buttons"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/padding_for_texts"
+        android:text="@string/remind_me_words"
+        android:textColor="@color/yellow_main"
+        android:textSize="@dimen/text_medium"></Switch>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_every"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_for_texts"
+            android:layout_marginLeft="@dimen/margin_for_buttons"
+            android:layout_marginTop="@dimen/margin_for_buttons"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/padding_for_texts"
+            android:text="@string/Every"
+            android:textColor="@color/yellow_main"
+            android:textSize="@dimen/text_medium" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_every"
+            android:layout_alignTop="@id/text_every"
+            android:layout_toRightOf="@+id/text_every"
+            android:background="@color/colorAccent">
+
+            <Spinner
+                android:id="@+id/spinner_reminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:padding="@dimen/padding_for_texts"></Spinner>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

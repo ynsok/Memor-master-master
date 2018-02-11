@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_for_texts">8dp</dimen>
+    <dimen name="margin_for_texts">8dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="margin_for_buttons">16dp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="wide_card_width">300dp</dimen>
+    <dimen name="wide_card_height">200dp</dimen>
+    <dimen name="image_padding_left">14dp</dimen>
+    <dimen name="button_margin2">8dp</dimen>
+    <dimen name="editor_absoluteX">0dp</dimen>
+    <dimen name="editor_absoluteY">3dp</dimen>
+    <dimen name="text_size_word_list">24sp</dimen>
+    <dimen name="margin_left_text_my_words">12dp</dimen>
+    <dimen name="margin_help_buttons">4dp</dimen>
+    <dimen name="icons_size">30dp</dimen>
+    <dimen name="card_padding_my_notes">20dp</dimen>
+    <dimen name="bottom_margin_add_word">20dp</dimen>
+    <dimen name="top_margin_add_word">40dp</dimen>
+    <dimen name="add_word_padding">50dp</dimen>
+    <dimen name="padding_info_icon">2dp</dimen>
+
+</resources>

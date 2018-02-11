@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/image_add_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:paddingLeft="@dimen/card_padding_my_notes"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_kartka_vector_y"></ImageView>
+
+
+        <TextView
+            android:id="@+id/secondRecyclerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image_add_word"
+            android:layout_alignLeft="@id/image_add_word"
+            android:layout_alignRight="@id/image_add_word"
+            android:layout_alignTop="@id/image_add_word"
+            android:gravity="center"
+            android:hint="@string/hint_word"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColorLink="@color/colorPrimary"
+            android:textCursorDrawable="@drawable/edit_text_cursor_style"
+            tools:text="TextView" />
+    </RelativeLayout>
+
+</ScrollView>

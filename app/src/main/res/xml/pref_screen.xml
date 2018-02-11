@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:summaryOff="Notification is Disable"
+        android:summaryOn="Notification will be showing"
+        android:key="@string/Show_Notification_Key"
+        android:defaultValue="true"
+        android:title="Show Notification" />
+
+    <android.support.v7.preference.ListPreference
+        android:title="Type hours"
+        android:key="@string/List_Preference_Key"
+        android:entries="@array/list_preference_entries"
+        android:entryValues="@array/list_preference_entry_values" />
+
+
+</android.support.v7.preference.PreferenceScreen>
